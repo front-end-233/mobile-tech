@@ -88,28 +88,3 @@
 
 [浅谈移动前端的最佳实践](http://www.cnblogs.com/yexiaochai/p/4219523.html)
 
-##目前开发模式
->总的来说目前开发模式是前后端未分离，前端通过假数据写好静态页面，调试好后转移到后端平台进行联调
-
-###基础库-only [zepto](http://www.html-5.cn/Manual/Zepto/)
->经历了`jquery mobile` 》`jquery` 》`zepto` ，主要目的为了移动端可怜的性能和网速。目前没有但是希望不过因为找不到暂时还是自己些的ui库。有考虑使用`iscroll`。下个迭代中会尝试使用zepto+fastclick+iscroll
-
-**数据操作和模板引擎使用**--`underscore`
-
-**css后处理使用**--`grunt-autoprefixer`
-
-**字体处理**--`Fontlab Studio`
-
-###基础技术选型
->主要是如何使用一些技术选型实现需求
-ps.`》`为降级方案
-
-**基础图标**--`iconfont` 》图片
-
-**基础动画（移动，缩放，旋转等）**--`animation/transition`》`js动画`》`gif`
-
-**基础布局**--个人喜好
-
->**待补充**
-
-ps.[看这里](https://github.com/jtyjty99999/mobileTech)有更大而全的东西
